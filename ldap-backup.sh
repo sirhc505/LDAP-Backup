@@ -10,10 +10,9 @@ XARGS="/usr/bin/xargs"
 DAYS_TO_KEEP="+7"
 BACKUP_DIR="/var/openldap/backups"
 
-if [ ! -d "$BACKUP_DIR" ] ;
-	echo "Backup Directory [$BACKUP_DIR] does not exist! Creating..."
-	mkidr $BACKUP_DIR
-	echo "Done!"
+if [ ! -d "$BACKUP_DIR" ] ; then
+	echo "Backup Directory [$BACKUP_DIR] does not exist! Dying..."
+	exit
 fi
 
 # Backup and compress LDAP Database
