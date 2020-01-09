@@ -39,4 +39,4 @@ We run a major update at 5AM for uconnpeople.txt so it is recommended that the b
 
 ## Created By
 
-Christopher Tarricone chris at uconn dot edu
+Christopher Tarricone chris at uconn dot edu (c) 2020
