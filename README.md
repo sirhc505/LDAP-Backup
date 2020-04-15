@@ -7,7 +7,7 @@
 Download this from stash:
 
 ```sh
-git clone ssh://git@atl-stash.uits.uconn.edu:7999/ldap/ldapbackups.git
+git clone https://github.com/sirhc505/LDAP-Backup.git
 ```
 
 ### Set Options
